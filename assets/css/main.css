@@ -1955,6 +1955,10 @@ input, select, textarea {
 		transition: min-height 0.5s ease-in-out, max-height 0.5s ease-in-out;
 	}
 
+		#main > .panel.no-padding {
+			padding: 0;
+		}
+
 		#main > .panel {
 			-moz-transition: opacity 0.25s ease-in-out;
 			-webkit-transition: opacity 0.25s ease-in-out;
